@@ -1,0 +1,30 @@
+:root {
+  --side-bar-width: 280px;
+  --bg-color: #1D1E2E;
+}
+
+
+.app {
+  background-color: var(--bg-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.view {
+  margin-left: var(--side-bar-width)
+}
+
+@media (max-width: 1300px) {
+  :root {
+    --side-bar-width: 0;
+  }
+  .side-nav-container {
+    display: none;
+  }
+}

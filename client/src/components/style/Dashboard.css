@@ -1,0 +1,15 @@
+.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  animation: smooth-entrance 1s linear;
+}
+
+@keyframes smooth-entrance {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,83 @@
+.modal-card{
+    color: white;
+}
+
+.modal-button:hover {
+    transform: scale(1.1)
+}
+
+.card-holder{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    overflow-x: auto;
+}
+
+table{
+    border-collapse: separate;
+    border-spacing: 20px 20px;
+    border: 1px solid #7850A9;
+    border-radius: 1px;
+    height: 40vh;
+    width: 48vh;
+}
+
+caption{
+    background-color: #7850A9;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.close-button{
+    background-color: rgb(255,255,255, 0.001);
+    color: white;
+    width: 2vh;
+    height: 2vh;
+    margin-bottom: 5px;
+}
+
+
+
+th, td{
+    text-align: start;
+    border-bottom: 2px solid #7850A9;
+    padding-left: 5px;
+}
+
+.card-title{
+    border-bottom: 1px solid purple;
+
+}
+
+.ReactModalContent {
+    opacity: 0;
+    transform: scale(0);
+    transition: opacity 300ms ease-in-out;
+    transition: transform 300ms ease-in-out;
+}
+
+.ReactModalContent--after-open{
+    opacity: 1;
+    transform: scale(1);
+}
+
+.modal-button {
+    margin-left: auto;
+    display: block;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+
+.ReactModal__Content {
+    opacity: 0;
+    transform: scale(0);
+    transition: opacity 300ms ease-in-out;
+    transition: transform 300ms ease-in-out;
+}
+
+.ReactModal__Content--after-open{
+    opacity: 1;
+    transform: scale(1);
+}
