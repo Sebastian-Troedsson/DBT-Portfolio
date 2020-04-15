@@ -4,9 +4,9 @@ This MVP was built during 10 days of the Winter20 Stockholm School of Applied Te
 
 This was my final graduation project at `</salt>` together with our client [DBT](https://dbt.se/) and my team: 
 
+- Sebastian Troedsson
 - Moe Terani
 - Robin Ribaric
-- Sebastian Troedsson
 - Soroush Sajadi
 
 ![](https://github.com/MoeTerani/DBT-Portfolio-SALT/blob/master/DBT-screenshots/Screenshot%202020-04-15%20at%2011.43.22.jpg)
